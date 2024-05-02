@@ -1,3 +1,5 @@
-document.getElementById("btn").onclick = function() {
-  document.getElementById("text").innerHTML = "ボタンをクリックしました。"
-  }
+const h2 = document.getElementById("text");
+
+document.getElementById("btn").onclick = function () {
+  h2.innerHTML = "ボタンをクリックしました。"
+}
